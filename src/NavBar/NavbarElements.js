@@ -7,8 +7,8 @@ export const Headername = styled(Link) `
     position: fixed;
     color: white;
     font-size: 30px;
-    padding-top: 2.8rem;
-    margin-left: 10rem;
+    padding-top: 2.93rem;
+    margin-left: 2rem; // was 10rem for logo
     text-decoration: none;
     &:hover {
         color: #79d4ff;
@@ -67,6 +67,17 @@ export const NavMenu = styled.div `
    @media screen and (max-width: 768px) {
        display:none;
    }
+`;
+
+export const MyLine = styled.nav `
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 1px;
+    margin-top: 7rem;
+    z-index: 2000;
 `;
  
  

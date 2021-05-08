@@ -1,10 +1,18 @@
 import React from 'react'
+import { BackHeader, Headername, Box } from './PageElements';
+import './animations/raining.css';
+import img from './photos/stormypic.jpg';
 
 function Floodalert() {
     return (
-        <h1 style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh'}}>
-             FLOOD ALERT 
-        </h1>
+        <div>
+            {/* the rain effect */}
+            <Box className = "rain" />
+            <BackHeader style={{ backgroundImage: `url(${img})` }}> 
+                <Headername> Flood Alert  </Headername>
+            </BackHeader>
+            
+        </div>
     )
 }
 
