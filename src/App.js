@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-
+import Navbar from './NavBar/index';
+import Home from './Pages/index';
+import Floodalert from './Pages/floodalert'
+import Heatrisk from './Pages/heatrisk'
+ 
+ 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ return (
+   <Router>
+     <Navbar />
+     <Switch>
+       <Route path='/' exact component={Home} />
+       <Route path='/heatrisk' exact component={Heatrisk} />
+       <Route path='/floodalert' exact component={Floodalert} />
+     </Switch>
+   </Router>
+ );
 }
-
+ 
 export default App;
