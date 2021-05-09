@@ -122,10 +122,70 @@ export const TextContainer = styled.nav `
    justify-content: space-around;
 `;
 
-export const Textbox = styled.nav  `
-   background-color: blue;
-   position: relative;
-   width: 48%;
+export const TextContainerfire = styled.nav `
+   position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 63rem;
+   z-index: 1;
+   flex-direction: row;
+   width: 70%;
    height: 20rem;
+   justify-content: space-around;
+`;
+
+export const TextContainerwater = styled.nav `
+   position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 59.3rem;
+   z-index: 1;
+   flex-direction: row;
+   width: 70%;
+   height: 20rem;
+   justify-content: space-around;
+`;
+
+export const Textbox = styled.nav  `
+   padding: 1%;
+   padding-top: 2%;
+   padding-left: 2%;
+   padding-right: 2%;
+   color: white;
+   justify-content: center;
+   background-color: #4E4E52;
+   position: relative;
+   width: 40%;
+   height: 18rem;
    border-radius: 8%;
+   box-shadow: 5px 10px #888888;
+`;
+
+export const MyContainerHome = styled.div `
+padding: 1%;
+padding-top: 2%;
+padding-left: 2%;
+padding-right: 2%;
+color: white;
+   justify-content: center;
+   position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25.3rem;
+   width: 72%;
+   height: 300px;
+   background-color: gray;
+   z-index: 0;
 `;

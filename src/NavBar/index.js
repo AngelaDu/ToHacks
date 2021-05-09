@@ -11,7 +11,7 @@ const Navbar = () => {
             < MyLine />
             <MyLineLeft />
             <MyLineRight />
-            <Headername to = "/"> Name of Project </Headername>
+            <Headername to = "/"> Climate Pulse </Headername>
             <NavMenu>
                 <NavLink to = "/floodalert" activeStyle> Flood Alert </NavLink>
                 <NavLink to = "/heatrisk" activeStyle> Heat Risks </NavLink>
