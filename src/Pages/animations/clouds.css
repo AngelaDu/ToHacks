@@ -1,0 +1,13 @@
+.videoTag {
+  position: absolute;
+  width: 84%;
+  overflow: hidden;
+  z-index: 0;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+}

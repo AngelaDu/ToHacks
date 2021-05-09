@@ -39,6 +39,7 @@ export const Headername = styled.div `
     position: absolute;
     display: flex;
     height: 92vh;
+    text-shadow: 3px 3px black;
    align-self: center;
    justify-content: center;
    align-items: center;
@@ -61,4 +62,18 @@ export const MyLine = styled.nav `
     height: 1px;
     margin-top: 24rem;
     z-index: 100;
+`;
+
+export const BackOfPage = styled.div `
+   position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   width: 84%;
+   height: 100%;
+   margin-top: 24rem;
+   background-color: white;
 `;

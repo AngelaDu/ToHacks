@@ -1,10 +1,20 @@
 import React from 'react'
+import smoke from './photos/smoke.mp4'
+import { BackHeader, Headername, BackOfPage, MyLine } from './PageElements';
+import './animations/clouds.css';
 
 function Pollutionlevel() {
     return (
-        <h1 style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh', color: 'white'}}>
-             Pollution levels
-        </h1>
+        <div>
+        <video className='videoTag' autoPlay loop muted>
+            <source src={smoke} type='video/mp4' />
+        </video>
+        < MyLine />
+        <BackHeader> 
+            <Headername> Pollution Levels  </Headername>
+        </BackHeader>
+        <BackOfPage />
+        </div>
     )
 }
 
