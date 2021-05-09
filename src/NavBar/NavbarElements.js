@@ -79,5 +79,27 @@ export const MyLine = styled.nav `
     margin-top: 7rem;
     z-index: 2000;
 `;
+
+export const MyLineLeft = styled.nav `
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    position: fixed;
+    background-color: gray;
+    width: 1px;
+    margin-top: 7rem;
+    z-index: 1000;
+    margin-left: 8%;
+`;
  
- 
+export const MyLineRight = styled.nav `
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    position: fixed;
+    background-color: gray;
+    width: 1px;
+    margin-top: 7rem;
+    z-index: 1000;
+    margin-right: 8%;
+`;

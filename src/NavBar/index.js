@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, NavLink, NavMenu, LogoLink, Headername, MyLine } from './NavbarElements';
+import { Nav, NavLink, NavMenu, LogoLink, Headername, MyLine, MyLineLeft, MyLineRight } from './NavbarElements';
 import logo from './myLogo.png';
 import ParticleBackground from './ParticleFiles/particleBackground';
  
@@ -9,6 +9,8 @@ const Navbar = () => {
             {/*<LogoLink to="/"> <img className = "myLogo" src={logo} alt = "Logo" height = "100%"/> </LogoLink>*/}
             < ParticleBackground />
             < MyLine />
+            <MyLineLeft />
+            <MyLineRight />
             <Headername to = "/"> Name of Project </Headername>
             <NavMenu>
                 <NavLink to = "/floodalert" activeStyle> Flood Alert </NavLink>
