@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import { BackHeader, Headername, BackOfPage, MyLine } from "./PageElements";
+import "./animations/index.css";
 
 function Home() {
-    return (
-        <h1 style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh', color: 'white'}}>
-             HOME 
-        </h1>
-    )
-}
 
-export default Home
+  useEffect(() => {
+    const script = document.createElement('script');      
+    script.src = "https://cdn.chatbot.com/widget/plugin.js";
+    script.async = true;
+    document.getElementById("chatbot").appendChild(script);
+  }, []);
+
+  return (
+    <div>
+      <MyLine />
+      <BackHeader>
+        <Headername> Home </Headername>
+      </BackHeader>
+      <div className="chatting" id="chatbot"> </div>
+      <BackOfPage style={{ height: "100rem" }} />
+    </div>
+  );
+}
+export default Home;

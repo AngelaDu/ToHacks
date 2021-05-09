@@ -1,17 +1,23 @@
 import React from 'react'
-import { BackHeader, Headername, MyLine, BackOfPage } from './PageElements';
-import './animations/fires.css';
+import { BackHeader, Headername, MyLine, BackOfPage, MyContainer } from './PageElements';
+import img from './photos/BCCAQv2_85_annual_plus30_2021-2050.png'
+import firee from './photos/fireee.mp4'
+import './animations/heat.css'
 
 
 function Heatrisk() {
     return (
         <div>
+            <video className='videoTag' autoPlay loop muted>
+                 <source src={firee} type='video/mp4' />
+            </video>
             < BackOfPage />
-            <div className = 'flame' ></div>
             < MyLine />
-            <BackHeader style={{ background: 'rgb(255,141,43)', background: 'radial-gradient(circle at 50% 40%, rgba(255,141,43,1) 0%, rgba(91,18,18,1) 21%, rgba(65,6,6,1) 35%, rgba(50,0,0,1) 59%)' }}> 
-                <Headername> HEAT RISK   </Headername>
+            <BackHeader > 
+                <Headername> HEAT RISK </Headername>
             </BackHeader>
+            <img src={img} className="fireboi"></img>
+            <MyContainer style={{ backgroundColor: "orange", height: "36.3rem" }} />
         </div>
     )
 }

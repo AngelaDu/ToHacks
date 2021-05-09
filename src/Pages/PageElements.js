@@ -6,12 +6,12 @@ export const Box = styled.nav `
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
-   width: 80%;
+   width: 70%;
    justify-content: center;
    height: 17rem;
    display: flex;
    flex-direction: row;
-   margin-top: 7rem;
+   margin-top: 5rem;
    padding-right: 2%;
    padding-left: 2%;
    z-index: 5;
@@ -24,7 +24,7 @@ export const BackHeader = styled.nav`
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
-   width: 80%;
+   width: 70%;
    justify-content: center;
    height: 17rem;
    display: flex;
@@ -56,7 +56,7 @@ export const MyLine = styled.nav `
       right: 0; 
       margin-left: auto; 
       margin-right: auto; 
-    width: 84%;
+    width: 76%;
     position: absolute;
     background-color: gray;
     height: 1px;
@@ -72,8 +72,60 @@ export const BackOfPage = styled.div `
    right: 0;
    margin-left: auto;
    margin-right: auto;
-   width: 84%;
+   width: 74%;
    height: 100%;
    margin-top: 24rem;
    background-color: white;
+   z-index: -1;
+`;
+
+export const MyContainer = styled.div `
+   position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25.3rem;
+   width: 72%;
+   height: 300px;
+   background-color: gray;
+   z-index: 0;
+`;
+
+export const myPic = styled.nav `
+position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25.3rem;
+   width: 72%;
+`;
+
+export const TextContainer = styled.nav `
+   position: absolute;
+   display: flex;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 81rem;
+   z-index: 1;
+   flex-direction: row;
+   width: 70%;
+   height: 20rem;
+   justify-content: space-around;
+`;
+
+export const Textbox = styled.nav  `
+   background-color: blue;
+   position: relative;
+   width: 48%;
+   height: 20rem;
+   border-radius: 8%;
 `;

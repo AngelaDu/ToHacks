@@ -89,7 +89,7 @@ export const MyLineLeft = styled.nav `
     width: 1px;
     margin-top: 7rem;
     z-index: 1000;
-    margin-left: 8%;
+    margin-left: 12%;
 `;
  
 export const MyLineRight = styled.nav `
@@ -101,5 +101,5 @@ export const MyLineRight = styled.nav `
     width: 1px;
     margin-top: 7rem;
     z-index: 1000;
-    margin-right: 8%;
+    margin-right: 12%;
 `;
