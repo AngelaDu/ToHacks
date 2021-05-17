@@ -1,5 +1,8 @@
-Watch our demo!
+Quick runthrough of the site:
 
+
+
+Demo for the hackathon:
 https://user-images.githubusercontent.com/38049339/118464630-131bb300-b6cf-11eb-9f83-77f8f9b63d48.mp4
 
 ## Inspiration
