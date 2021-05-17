@@ -1,6 +1,6 @@
+
 Quick runthrough of the site:
-
-
+https://user-images.githubusercontent.com/38049339/118466607-0304d300-b6d1-11eb-86c5-5b930b7fbdd6.mp4
 
 Demo for the hackathon:
 https://user-images.githubusercontent.com/38049339/118464630-131bb300-b6cf-11eb-9f83-77f8f9b63d48.mp4
